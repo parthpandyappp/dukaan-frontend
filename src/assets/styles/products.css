@@ -1,3 +1,5 @@
+/* general stylesheet for products */
+
 .product-container {
   display: flex;
   flex-wrap: wrap;
