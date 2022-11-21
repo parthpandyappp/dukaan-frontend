@@ -1,4 +1,7 @@
 import { Divider } from "./Divider";
+import { Slogans } from "./Slogans";
+import { SloganData } from "../assets/db";
+import { Pagination } from "./Pagination";
 
 const SloganForm = () => {
   return (
@@ -10,7 +13,7 @@ const SloganForm = () => {
           relevant slogans for free
         </p>
 
-        <form>
+        <form className="form-page">
           <label className="form-label" htmlFor="word-for-slogan">
             Word for your slogan
           </label>
@@ -23,6 +26,9 @@ const SloganForm = () => {
           <button className="btn-form mt-48">Generate slogans</button>
         </form>
         <Divider />
+        <Slogans slogans={SloganData} />
+        <Divider />
+        <Pagination />
       </div>
     </div>
   );
