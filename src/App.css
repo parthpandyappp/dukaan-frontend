@@ -2,9 +2,12 @@
 @import url("./assets/styles/button.css");
 @import url("./assets/styles/header.css");
 @import url("./assets/styles/divider.css");
+@import url("./assets/styles/features.css");
 @import url("./assets/styles/sloganform.css");
 @import url("./assets/styles/Pagination.css");
+@import url("./assets/styles/products.css");
 
+/* stylesheet */
 * {
   font-family: "poppins";
 }
