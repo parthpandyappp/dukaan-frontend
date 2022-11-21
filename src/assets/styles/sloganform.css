@@ -1,0 +1,35 @@
+.form-container {
+  background-color: #ffffff;
+  margin-top: -134px;
+  border-radius: 8px;
+}
+
+.form-main {
+  padding: 64px 192px;
+}
+
+.form-heading {
+  font-size: 36px;
+}
+
+.form-para {
+  font-size: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  width: 352px;
+  height: 48px;
+  padding: 0 0.5rem;
+  font-size: 16px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}

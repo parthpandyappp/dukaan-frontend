@@ -1,10 +1,11 @@
 import { Fragment } from "react";
-import { Header } from "../components";
+import { Header, SloganForm } from "../components";
 
 const Home = () => {
   return (
     <Fragment>
       <Header />
+      <SloganForm />
     </Fragment>
   );
 };
