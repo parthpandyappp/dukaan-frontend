@@ -1,5 +1,11 @@
 import { Fragment } from "react";
-import { Features, Header, OtherProducts, SloganForm } from "../components";
+import {
+  Features,
+  Footer,
+  Header,
+  OtherProducts,
+  SloganForm,
+} from "../components";
 
 const Home = () => {
   return (
@@ -10,6 +16,7 @@ const Home = () => {
         <Features />
       </div>
       <OtherProducts />
+      <Footer />
     </Fragment>
   );
 };
