@@ -1,0 +1,23 @@
+/* general stylesheet for features */
+
+.feat-container {
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feat-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 352px;
+  opacity: 1;
+  padding-top: 72px;
+}
+
+.feature-block {
+  margin-top: 80px;
+  background-color: rgb(20, 110, 180, 0.05);
+}

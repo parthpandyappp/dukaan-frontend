@@ -1,5 +1,24 @@
+import { Fragment } from "react";
+import {
+  Features,
+  Footer,
+  Header,
+  OtherProducts,
+  SloganForm,
+} from "../components";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <Fragment>
+      <Header />
+      <SloganForm />
+      <div className="feature-block">
+        <Features />
+      </div>
+      <OtherProducts />
+      <Footer />
+    </Fragment>
+  );
 };
 
 export { Home };

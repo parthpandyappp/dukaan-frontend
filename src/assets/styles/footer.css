@@ -1,0 +1,42 @@
+/* general stylesheet for footer */
+
+footer {
+  background: #1a181e;
+  color: #ffffff;
+}
+.footer-main {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 80px;
+  justify-content: space-between;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+.badge-count {
+  background: #ffffff;
+  color: #1a181e;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 0px 7px;
+  text-align: center;
+  margin-left: 2px;
+}
+
+.end-item {
+  font-size: 14px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+/* general stylesheet for pagination */
+
+.pagination-main {
+  display: flex;
+  margin-top: -48px;
+  justify-content: space-between;
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination-main p {
+  color: #146eb4;
+  cursor: pointer;
+}
+
+.pagination-pages .active {
+  background: #146eb4;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  padding: 2px 2px;
+  text-align: center;
+}

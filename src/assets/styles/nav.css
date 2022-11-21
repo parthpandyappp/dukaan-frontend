@@ -1,0 +1,22 @@
+/* general stylesheet for navbar */
+
+.nav-container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.nav-container p {
+  font-size: 18px;
+}
+
+.nav-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
