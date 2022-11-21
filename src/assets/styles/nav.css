@@ -1,0 +1,26 @@
+.nav-container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.nav-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #146eb4;
+  cursor: pointer;
+}

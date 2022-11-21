@@ -1,5 +1,12 @@
+import { Fragment } from "react";
+import { Header } from "../components";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <Fragment>
+      <Header />
+    </Fragment>
+  );
 };
 
 export { Home };
