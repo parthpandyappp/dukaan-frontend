@@ -1,4 +1,3 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fparthpandyappp%2Fdukaan-frontend%2F)
 # What's this all about?
 The project is a result of the frontend task assigned by Dukaan app. It's a static React app, designed pixel perfect in accordance with the given figma design.
 
