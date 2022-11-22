@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fparthpandyappp%2Fdukaan-frontend%2F)
+# What's this all about?
+The project is a result of the frontend task assigned by Dukaan app. It's a static React app, designed pixel perfect in accordance with the given figma design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How it still stands out?
+1. Highly scalable folder structure.
+2. Modular code, more components.
+3. Implementation of ***Barrels*** in ReactJs.
+4. Up to date ***version control*** with `git`
+5. Proper ***segregation*** of `components` and `pages` in the application.
 
-## Available Scripts
+# Early preview
+![image](https://user-images.githubusercontent.com/34797335/203276746-85f5cf62-d776-4a55-99e2-ba785ac855d1.png)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ 
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href="baseHREF">src</a><br>
+	├── <a href="baseHREF/App.css">App.css</a><br>
+	├── <a href="baseHREF/App.js">App.js</a><br>
+	├── <a href="baseHREF/assets/">assets</a><br>
+	│   ├── <a href="baseHREF/assets/db/">db</a><br>
+	│   │   ├── <a href="baseHREF/assets/db/FeatureData.js">FeatureData.js</a><br>
+	│   │   ├── <a href="baseHREF/assets/db/index.js">index.js</a><br>
+	│   │   ├── <a href="baseHREF/assets/db/ProductData.js">ProductData.js</a><br>
+	│   │   └── <a href="baseHREF/assets/db/SloganData.js">SloganData.js</a><br>
+	│   ├── <a href="baseHREF/assets/fonts/">fonts</a><br>
+	│   │   ├── <a href="baseHREF/assets/fonts/galanogrotesque-medium.otf">galanogrotesque-medium.otf</a><br>
+	│   │   ├── <a href="baseHREF/assets/fonts/galanogrotesque-regular.otf">galanogrotesque-regular.otf</a><br>
+	│   │   └── <a href="baseHREF/assets/fonts/galanogrotesque-semibold.otf">galanogrotesque-semibold.otf</a><br>
+	│   ├── <a href="baseHREF/assets/icons/">icons</a><br>
+	│   │   ├── <a href="baseHREF/assets/icons/1.png">1.png</a><br>
+	│   │   ├── <a href="baseHREF/assets/icons/2.png">2.png</a><br>
+	│   │   └── <a href="baseHREF/assets/icons/3.png">3.png</a><br>
+	│   ├── <a href="baseHREF/assets/images/">images</a><br>
+	│   │   ├── <a href="baseHREF/assets/images/domain-name.png">domain-name.png</a><br>
+	│   │   ├── <a href="baseHREF/assets/images/dukaanlogo.png">dukaanlogo.png</a><br>
+	│   │   ├── <a href="baseHREF/assets/images/flag.png">flag.png</a><br>
+	│   │   ├── <a href="baseHREF/assets/images/invoice-generator.png">invoice-generator.png</a><br>
+	│   │   ├── <a href="baseHREF/assets/images/privacy-policy.png">privacy-policy.png</a><br>
+	│   │   └── <a href="baseHREF/assets/images/terms.png">terms.png</a><br>
+	│   └── <a href="baseHREF/assets/styles/">styles</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/button.css">button.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/divider.css">divider.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/features.css">features.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/footer.css">footer.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/header.css">header.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/nav.css">nav.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/Pagination.css">Pagination.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a href="baseHREF/assets/styles/products.css">products.css</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a href="baseHREF/assets/styles/sloganform.css">sloganform.css</a><br>
+	├── <a href="baseHREF/components/">components</a><br>
+	│   ├── <a href="baseHREF/components/Divider.jsx">Divider.jsx</a><br>
+	│   ├── <a href="baseHREF/components/FeatureCard.jsx">FeatureCard.jsx</a><br>
+	│   ├── <a href="baseHREF/components/Features.jsx">Features.jsx</a><br>
+	│   ├── <a href="baseHREF/components/Footer.jsx">Footer.jsx</a><br>
+	│   ├── <a href="baseHREF/components/Header.jsx">Header.jsx</a><br>
+	│   ├── <a href="baseHREF/components/index.js">index.js</a><br>
+	│   ├── <a href="baseHREF/components/Nav.jsx">Nav.jsx</a><br>
+	│   ├── <a href="baseHREF/components/OtherProducts.jsx">OtherProducts.jsx</a><br>
+	│   ├── <a href="baseHREF/components/Pagination.jsx">Pagination.jsx</a><br>
+	│   ├── <a href="baseHREF/components/ProductCard.jsx">ProductCard.jsx</a><br>
+	│   ├── <a href="baseHREF/components/SloganForm.jsx">SloganForm.jsx</a><br>
+	│   └── <a href="baseHREF/components/Slogans.jsx">Slogans.jsx</a><br>
+	├── <a href="baseHREF/index.css">index.css</a><br>
+	├── <a href="baseHREF/index.js">index.js</a><br>
+	├── <a href="baseHREF/pages/">pages</a><br>
+	│   ├── <a href="baseHREF/pages/Home.jsx">Home.jsx</a><br>
+	│   └── <a href="baseHREF/pages/index.js">index.js</a><br>
+	├── <a href="baseHREF/tree.html">tree.html</a><br>
+	└── <a href="baseHREF/tree.txt">tree.txt</a><br>
+	<br><br>
+	</p>
+	<p>
+</body>
+</html>
