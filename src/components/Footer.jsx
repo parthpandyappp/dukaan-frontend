@@ -7,11 +7,8 @@ const Footer = () => {
     <footer className="mt-80">
       <div className="container">
         <main className="footer-main">
-          <div className="nav-align">
-            <span className="logo-main">
-              <img src={dukaanlogo} alt="dukaan-logo" className="logo-img" />
-            </span>
-          </div>
+          <img src={dukaanlogo} alt="dukaan-logo" className="logo-img" />
+
           <div className="footer-section">
             <p>Contact</p>
             <p>FAQ's</p>
