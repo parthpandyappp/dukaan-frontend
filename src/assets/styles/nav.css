@@ -4,6 +4,7 @@
   display: flex;
   color: white;
   justify-content: space-between;
+  padding-top: 32px;
 }
 
 .nav-container p {

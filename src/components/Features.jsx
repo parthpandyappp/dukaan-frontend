@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div className="feat-container container">
       {FeatureData.length &&
-        FeatureData.map((feature) => <FeatureCard feature={feature} />)}
+        FeatureData.map((feature) => <FeatureCard key={feature.id} feature={feature} />)}
     </div>
   );
 };

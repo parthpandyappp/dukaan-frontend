@@ -8,7 +8,9 @@ const OtherProducts = () => {
 
       <div className="product-container">
         {ProductData.length &&
-          ProductData.map((product) => <ProductCard product={product} />)}
+          ProductData.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
       </div>
     </div>
   );

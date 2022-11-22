@@ -17,16 +17,20 @@
 }
 
 .form-heading {
+  font-family: "GalanoMed";
   font-size: 36px;
+  color: #1a181e;
 }
 
 .form-para {
   font-size: 20px;
+  color: #4d4d4d;
 }
 
 .form-label {
   font-size: 16px;
   margin-bottom: 8px;
+  color: #4d4d4d;
 }
 
 .form-input {
@@ -49,6 +53,7 @@
 }
 
 .slogan-items {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -60,9 +65,14 @@
   font-weight: 400;
   font-size: 16px;
   background: #f2f2f2;
+  color: #1a181e;
   border-radius: 4px;
   padding: 8px 16px;
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.relative {
+  position: relative;
 }

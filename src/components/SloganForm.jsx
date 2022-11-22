@@ -21,7 +21,7 @@ const SloganForm = () => {
             className="form-input"
             type="search"
             name="word-for-slogan"
-            value="cozy"
+            defaultValue="cozy"
           />
           <button className="btn-form mt-48">Generate slogans</button>
         </form>
