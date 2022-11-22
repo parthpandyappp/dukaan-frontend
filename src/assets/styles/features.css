@@ -4,6 +4,7 @@
   gap: 1rem;
   display: flex;
   justify-content: space-between;
+  padding: 76px 64px;
 }
 
 .feat-card {
@@ -14,7 +15,10 @@
   text-align: center;
   width: 352px;
   opacity: 1;
-  padding-top: 72px;
+}
+
+.feat-card p {
+  color: #4d4d4d;
 }
 
 .feature-block {
